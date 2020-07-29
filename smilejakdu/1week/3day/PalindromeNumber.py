@@ -19,3 +19,14 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 '''
 
+def isPalindrome(x):
+    number = str(x)
+    if 0 > x:
+        return False
+    reverse_number = number[::-1]
+    if number == reverse_number:
+        return True
+
+    return False
+
+
