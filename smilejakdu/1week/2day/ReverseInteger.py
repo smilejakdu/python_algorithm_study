@@ -24,7 +24,6 @@ Input: 901000
 Output: 109
 '''
 
-Input = -2147483648
 
 class Solution(object):
     def reverse(self, x):
@@ -66,7 +65,3 @@ class Solution(object):
 
         elif 0 == x:
             return 0
-
-
-s = Solution()
-print(s.reverse(Input))
