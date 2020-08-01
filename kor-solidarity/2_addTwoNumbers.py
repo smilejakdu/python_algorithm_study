@@ -19,12 +19,3 @@ class Solution:
         for i, j in enumerate(result):
             answer.insert(0, j)
         return answer
-
-
-
-
-
-a = Solution()
-print(a.addTwoNumbers([2, 4, 3], [5, 6, 4]))
-
-
