@@ -17,5 +17,14 @@ Your function should return length = 5,
 with the first five elements of nums being modified to 0, 1, 2, 3, and 4 respectively.
 
 It doesn't matter what values are set beyond the returned length.
-
+이거는 제가 풀지 않았고 , 괜찮은 풀이가 있어서 적었습니다.
 '''
+
+
+class Solution(object):
+    def removeDuplicates(self, nums):
+        for num in nums[::-1]:
+            if nums.count(num) > 1:
+                nums.remove(num)
+        return len(nums)
+
