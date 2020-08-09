@@ -49,7 +49,7 @@ haystack[i:i + needle_length] 로 인해서 haystack 의 index i 부터 i+ needl
 return 으로 i 를 반환한다. 
 '''
 
-def strStr(self, haystack, needle):
+def strStr(haystack, needle):
     haystack_length = len(haystack)
     needle_length = len(needle)
     if haystack == needle:
