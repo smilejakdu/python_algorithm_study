@@ -1,3 +1,7 @@
+# Runtime: 56 ms, faster than 13.10% of Python3 online submissions for Valid Parentheses.
+# Memory Usage: 13.9 MB, less than 48.47% of Python3 online submissions for Valid Parentheses.
+
+
 class Solution:
     def isValid(self, s: str) -> bool:
         layer1 = ['(', '[', '{']
@@ -14,6 +18,3 @@ class Solution:
         if len(real_layer):
             return False
         return True
-
-# print(Solution().isValid("([)]"))
-# print(Solution().isValid("{[]}"))

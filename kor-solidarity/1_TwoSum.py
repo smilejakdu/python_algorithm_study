@@ -1,4 +1,5 @@
-# finished date: 20200728
+# Runtime: 3660 ms, faster than 17.10% of Python3 online submissions for Count and Say.
+# Memory Usage: 14.8 MB, less than 92.97% of Python3 online submissions for Count and Say.
 from typing import List
 
 

@@ -26,11 +26,3 @@ class Solution:
             node = ListNode(result[i], node)
 
         return node
-
-
-l1 = ListNode(2, ListNode(4, ListNode(3)))
-l2 = ListNode(5, ListNode(6, ListNode(4)))
-# Solution().addTwoNumbers(l1, l2)
-l1 = ListNode(1, ListNode(8))
-l2 = ListNode(0)
-Solution().addTwoNumbers(l1, ListNode(0))
